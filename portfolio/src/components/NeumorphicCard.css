@@ -1,0 +1,20 @@
+.neumorphic {
+  border-radius: 20px;
+  background: var(--bg-color);
+  box-shadow: 10px 10px 20px var(--dark-shadow),
+    -10px -10px 20px var(--light-shadow);
+  transition: all 0.3s ease, transform 0.3s ease;
+}
+
+.neumorphic:hover {
+  box-shadow: 5px 5px 10px var(--dark-shadow),
+    -5px -5px 10px var(--light-shadow);
+  transform: translateY(-4px);
+}
+
+.neumorphic-inner {
+  background: var(--bg-color);
+  border-radius: 16px;
+  box-shadow: inset 5px 5px 10px var(--dark-shadow),
+    inset -5px -5px 10px var(--light-shadow);
+}

@@ -1,0 +1,28 @@
+/* index.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #e0e0e0;
+  color: #333;
+}
+
+.neumorphic {
+  background: #e0e0e0;
+  border-radius: 20px;
+  box-shadow: 8px 8px 16px #bebebe,
+    -8px -8px 16px #ffffff;
+  padding: 20px;
+  transition: 0.3s ease;
+}
+
+.neumorphic:hover {
+  box-shadow: inset 8px 8px 16px #bebebe,
+    inset -8px -8px 16px #ffffff;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 2rem;
+}
