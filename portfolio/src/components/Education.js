@@ -1,5 +1,4 @@
 import React from 'react';
-import NeumorphicCard from './NeumorphicCard';
 import '../assets/styles/global.css'
 
 const Education = () => {

@@ -1,6 +1,5 @@
 import React from 'react';
-import NeumorphicCard from './NeumorphicCard';
-import { FaMapMarkerAlt, FaCalendarAlt, FaBriefcase, FaCircle } from 'react-icons/fa';
+import { FaMapMarkerAlt, FaCalendarAlt, FaBriefcase } from 'react-icons/fa';
 
 const Experience = () => {
   const experiences = [

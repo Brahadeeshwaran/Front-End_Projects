@@ -1,5 +1,4 @@
 import React from 'react';
-import Button from './Button';
 import '../assets/styles/global.css'
 import { Link } from 'react-scroll';
 
